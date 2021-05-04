@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-purple-900 p-4">
+    <div class="bg-pink-400 p-4">
       <div
         class="flex place-items-center space-x-2 text-coolGray-100 text-3xl container mx-auto"
       >

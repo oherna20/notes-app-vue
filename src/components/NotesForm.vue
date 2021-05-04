@@ -1,9 +1,9 @@
 <template>
     <div
-      class="absolute inset-0 w-screen h-screen bg-purple-800 flex justify-center items-center"
+      class="absolute inset-0 w-screen h-screen bg-green-800 flex justify-center items-center"
     >
     <button @click="reset" class="text-white absolute top-2 left-2">
-        <ant-design:close-circle-outlined class="text-6xl" />
+        <whh:exitalt class="text-6xl" />
       </button>
       <form @submit.prevent class="space-y-4">
         <div class="flex flex-col">
@@ -36,7 +36,7 @@
         <button
           v-else
           @click="addNote"
-            class="w-full bg-yellow-500 text-yellow-800 p-2 rounded mt-4 hover:bg-yellow-600 hover:text-yellow-900"
+            class="w-full bg-white text-yellow-800 p-2 rounded mt-4 hover:bg-warmGray-300 hover:text-yellow-900"
           >
             Add
           </button>

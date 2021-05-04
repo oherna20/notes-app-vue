@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-yellow-400 text-yellow-800 rounded text-center p-2 space-y-2">
+    <div class="bg-white text-yellow-800 rounded text-center p-2 space-y-2">
         <h3 class="text-2xl font-thin tracking-wide">{{ $props.note.title }}</h3>
         <p class="text-sm font-medium text-yellow-900">
             {{ $props.note.content }}
